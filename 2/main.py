@@ -6,7 +6,7 @@ keypad = [['1', '2', '3'],
 pos = [1, 1]
 code = ''
 
-instr = open("D:/Ausbildungsinhalte/Python/AoC/2016/2_input.txt", "r")
+instr = open("2_input.txt", "r")
 for line in instr.readlines():
     for i in line:
         if i == 'U':
@@ -32,7 +32,7 @@ keypad = [['X', 'X', '1', 'X', 'X'],
 pos = [0, 2]
 code = ''
 
-instr = open("D:/Ausbildungsinhalte/Python/AoC/2016/2_input.txt", "r")
+instr = open("2_input.txt", "r")
 for line in instr.readlines():
     for i in line:
         prev_pos = pos.copy()
