@@ -1,4 +1,4 @@
-messages = [line.strip() for line in open("D:/Ausbildungsinhalte/Python/AoC/2016/6_input.txt", "r")]
+messages = [line.strip() for line in open("6_input.txt", "r")]
 pos = [{} for a in messages[0]]
 for message in messages:
     for i, a in enumerate(message):
