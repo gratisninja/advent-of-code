@@ -1,4 +1,4 @@
-inp = [line.strip() for line in open("D:/Ausbildungsinhalte/Python/AoC/2015/2_input.txt", "r")]
+inp = [line.strip() for line in open("2_input.txt", "r")]
 total = 0
 for a in inp:
     l,w,h = list(map(int, a.split('x')))
